@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+.container {
+    border: 6px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    color : white;
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+}
+
+.flex-item-width {
+    color : white;
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+}
+
+.item-1 {
+    background-color: aqua;
+    order: 1;
+    flex-grow: 1;
+}
+
+.item-2 {
+    background-color: bisque;
+}
+
+.item-3 {
+    background-color: blueviolet;
+    order: 2;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+}
+
+.item-4 {
+    /* flex property is the shorthand for f-grow, f-shrink and f-basis */
+    flex: 0 1 auto; /* this line command is the auto value for all three properties of flex property */
+    background-color: brown;
+}
+
+.item-5 {
+    background-color: cadetblue;
+    order: 1;
+    flex-grow: 1;
+}
+
+.item-6 {
+    flex: 5 0 37px; /* this line command is the auto value for all three properties of flex property */
+    background-color: burlywood;
+}
+
+.item-7 {
+    background-color: coral;
+}
+
+.item-8 {
+    background-color: darkcyan;
+}
+    
+.item-9 {
+    background-color: deeppink;
+}
+
+.item-10 {
+    background-color: gold;
+}
