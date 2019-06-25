@@ -72,3 +72,68 @@ body {
 .item-10 {
     background-color: gold;
 }
+
+/*    -----------    Align-Self Property Exercise   ----------   */
+
+.container-align-self {
+    border: 6px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+}
+
+.flex-item-align-self {
+    color : white;
+    text-align: center;
+    padding: 5px;
+    /* height: 100px; */
+    flex-basis: 100px;
+}
+
+.item-self-1 {
+    background-color: aqua;
+    align-self: flex-start;
+}
+
+.item-self-2 {
+    background-color: bisque;
+}
+
+.item-self-3 {
+    background-color: blueviolet;
+    align-self: stretch;
+}
+
+.item-self-4 {
+    background-color: brown;
+    align-self: flex-end;
+}
+
+.item-self-5 {
+    background-color: cadetblue;
+    align-self: flex-end;
+}
+
+.item-self-6 {
+    background-color: burlywood;
+    align-self: flex-end;
+}
+
+.item-self-7 {
+    background-color: coral;
+    align-self: stretch;
+}
+
+.item-self-8 {
+    background-color: darkcyan;
+}
+    
+.item-self-9 {
+    background-color: deeppink;
+}
+
+.item-self-10 {
+    background-color: gold;
+}
